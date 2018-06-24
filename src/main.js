@@ -1,9 +1,10 @@
 $(function(){
-    var ns = new NumberSpinner($(('#spinedNumber')));
+    var numverFormat = true;
+    var ns = new NumberSpinner($('#spinedNumber'), numverFormat);
 
     // click start button
     $('#startButton').click(function() {
-        ns.start($(('#spinedNumber')).text().length);
+        ns.start($(('#spinedNumber')).text().replace(',','').length);
         $('#startButton').prop("disabled", true);
     });
 
