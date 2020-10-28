@@ -5,8 +5,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: 'number-shuffler.js',
-    libraryTarget: 'var',
     library: 'NumberShuffler',
+    libraryTarget: 'umd',
   },
   module: {
     rules: [
