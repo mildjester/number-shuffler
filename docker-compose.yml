@@ -1,9 +1,0 @@
-version: '2'
-
-services:
-    apache:
-      image: httpd:2.4
-      volumes:
-        - ./src:/usr/local/apache2/htdocs
-      ports:
-        - "10080:80"

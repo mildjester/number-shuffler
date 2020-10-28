@@ -1,0 +1,40 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="cache-control" content="no-cache">
+  <meta http-equiv="expires" content="0">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Number Shuffler DEMO</title>
+  <script src="/dist/number-shuffler.js"></script>
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    let numBoxElm = document.getElementById('numBox');
+    let ns = NumberShuffler.init(numBoxElm);
+
+    // set
+    ns.setOption({
+      interval: 100,
+      digit: 6,
+    });
+
+    document.getElementById('startBtn').addEventListener('click', function(){
+      ns.start();
+    });
+    document.getElementById('stopBtn').addEventListener('click', function(){
+      ns.stop();
+    });
+  });
+  </script>
+</head>
+<body>
+<div id="numBox">000,000</div>
+<button type="button" id="startBtn">start</button>
+<button type="button" id="stopBtn">stop</button>
+</body>
+</html>
