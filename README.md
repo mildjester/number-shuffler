@@ -6,14 +6,20 @@ This module shuffle NUMBER.
 
 ## Installation
 
+npm
 ```
 $ npm install number-shuffler
+```
+
+cdn
+```
+<script src="https://unpkg.com/number-shuffler@0.1.0/dist/number-shuffler.js"></script>
 ```
 
 ## Usage
 
 ### import
-import this module.
+import this module. (if install via npm only)
 ```
 import * as NumberShuffler from "number-shuffler";
 ```
