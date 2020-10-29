@@ -1,6 +1,6 @@
 {
   "name": "number-shuffler",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "This script spin a number as random.",
   "main": "dist/number-shuffler.js",
   "scripts": {
