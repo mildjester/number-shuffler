@@ -2,6 +2,7 @@
 
 This module shuffle NUMBER.
 
+![demo](https://raw.githubusercontent.com/wiki/mildjester/number-shuffler/demo.gif)
 
 ## Installation
 
