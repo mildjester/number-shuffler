@@ -16,7 +16,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/mildjester/number-shuffler.git"
   },
-  "author": "mildjester",
+  "author": "Daijiro Yoshihira (mildjester)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mildjester/number-shuffler/issues"
