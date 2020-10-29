@@ -35,7 +35,7 @@ ns.setOption({
 |option|type|description|default|
 |------|----|-----------|-------|
 |format|boolean|flag for format a number.|true|
-|interval|number|interval to switch numbers. |true|
+|interval|number|interval to switch numbers.(msec) |30|
 |digit|number|the number of digits|3|
 
 
